@@ -1,33 +1,31 @@
 # Flexbox
-Treinando as principais caracteristicas do Flexbox
+Training the main features of Flexbox
 
-O flexbox é aplicado com o display: flex;
-A organizacao dos novos layouts torna-se mais flexivel e dinamica
-Todos os itens do container ficam lado a lado por padrao
-Garante a capacidade de Responsividade
+Flexbox is applied with the display: flex;
+The organization of new layouts becomes more flexible and dynamic
+All items in the container are side-by-side by default
+Ensures Responsiveness Capacity
 
-# Direcao dos Itens (flex-diretions)
-- row (padrao): posiciona os itens lado a lado;
-- column : Posiciona os itens um em cima dos outros;
+# Items Direction (flex-diretions)
+- row (pattern): place items side by side;
+- column : Place items on top of each other;
 
-# Formas de Alinhamento
-
+# Alignment Forms
 1- justify-content (flex-start; flex-end; center; space-between; space-around)
 2- align-items (flex-start; flex-end; center)
 3- align-content (flex-start; flex-end; center; space-between; space-around; stretch)
 
 
-# Respomsividade (Flex-Flow)
+# Responsiveness (Flex-Flow)
 
-Com a propiedade "flex-flow" podemos adicionar responsividade ao nosso layout deuma forma muito simples
+With the property "flex-flow" we can add responsiveness to our layout in a very simple way
 
-Valores:
+Values:
 
-- nowrap : Nao permite a quebra de linha;
-- wrap : Quebra a linha assim que um dos itens nao couber mais
+- nowrap : Does not allow line break;
+- wrap : Break the line as soon as one of the items no longer fits;
 
-# Algumas propriedades do flex-item
-
-- order : Define a ordem do elemento no container;
-- flex : define o tamanho do elemento no main acx baseado no tamanho do container
+# Some flex-item properties
+- order : Defines the order of the element in the container;
+- flex : sets element size in main axes based on container size
 
