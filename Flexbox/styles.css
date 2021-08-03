@@ -1,0 +1,38 @@
+
+.container {
+
+    display: flex; /* Container lado a lado */
+    flex-direction: row;  /* Padrao: Posiciona os itens lado a lado */
+    height: 800px;
+    background: darkblue;
+    flex-flow: wrap;
+
+}
+
+
+.container div {
+
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.container .box-1 {
+
+    flex: 2;
+    order: 2;
+
+}
+
+.container .box-2 {
+
+   flex: 4;
+   order: 1;
+
+}
+
+.container .box-3 {
+
+    flex: 1;
+    order: 3;
+
+}
